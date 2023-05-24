@@ -67,7 +67,6 @@ function displaySearchResults(matches) {
       });
       searchResults.appendChild(listItem);
     });
-
   } else {
     const listItem = document.createElement('li');
     listItem.textContent = 'No results found.';
